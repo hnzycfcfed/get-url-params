@@ -11,6 +11,12 @@
         "pub": "NODE_ENV=production rollup -c && npm publish"
     },
     "author": "Daniel Zhao",
+    "keywords": [
+        "url params",
+        "get url params",
+        "get url parameters",
+        "get-url-params"
+    ],
     "license": "MIT",
     "files": [
         "dist",
