@@ -8,7 +8,7 @@
         "test": "jest",
         "watch": "rollup -c -w",
         "build": "NODE_ENV=development rollup -c",
-        "pub": "NODE_ENV=production rollup -c && npm publish"
+        "pub": "NODE_ENV=production rollup -c && npm publish --access public"
     },
     "author": "Daniel Zhao",
     "keywords": [
