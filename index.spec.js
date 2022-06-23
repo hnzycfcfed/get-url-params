@@ -24,23 +24,23 @@ test('test location.href', () => {
 });
 
 test('test browser router', () => {
-    let params = getUrlParams('https://h.hnzycfc.com/promotion/?channel=zyxf_jg_pyq_5&id=1273733713');
+    let params = getUrlParams('https://www.buttercatann.com/promotion/?channel=zyxf_jg_pyq_5&id=1273733713');
     expect(params).toEqual({ channel: 'zyxf_jg_pyq_5', id: '1273733713' });
 
-    params = getUrlParams('https://h.hnzycfc.com/promotion/?channel=&id=123');
+    params = getUrlParams('https://www.buttercatann.com/promotion/?channel=&id=123');
     expect(params).toEqual({ channel: '', id: '123' });
 });
 
 test('test hash router', () => {
-    let params = getUrlParams('https://api.hnzycfc.com/appServer/preRegist/index.html#/?channel=HYJR');
+    let params = getUrlParams('https://api.l-blog.me/appServer/preRegist/index.html#/?channel=HYJR');
     expect(params).toEqual({ channel: 'HYJR' });
 
-    params = getUrlParams('https://h.hnzycfc.com/promotion/?channel=zyxf_j#g_pyq_5&id=1273733713');
+    params = getUrlParams('https://www.buttercatann.com/promotion/?channel=zyxf_j#g_pyq_5&id=1273733713');
     expect(params).toEqual({ channel: 'zyxf_j' });
 });
 
 test('no params', () => {
-    const params = getUrlParams('https://h.hnzycfc.com/promotion/');
+    const params = getUrlParams('https://www.buttercatann.com/promotion/');
     expect(params).toEqual({});
 });
 
@@ -49,7 +49,7 @@ test('null string', () => {
     expect(getUrlParams('    ')).toEqual({});
     expect(getUrlParams(null)).toEqual({});
 
-    let params = getUrlParams('https://h.hnzycfc.com/promotion/?channel=zyxf_jg_pyq_5&    &id=1273733713');
+    let params = getUrlParams('https://www.buttercatann.com/promotion/?channel=zyxf_jg_pyq_5&    &id=1273733713');
     expect(params).toEqual({ channel: 'zyxf_jg_pyq_5', id: '1273733713' });
 });
 
@@ -60,6 +60,6 @@ test('not string', () => {
 });
 
 test('repeat key', () => {
-    let params = getUrlParams('https://h.hnzycfc.com/promotion/?channel=zyxf_jg_pyq_5&id=1273733713&channel=attack_value');
+    let params = getUrlParams('https://www.buttercatann.com/promotion/?channel=zyxf_jg_pyq_5&id=1273733713&channel=attack_value');
     expect(params).toEqual({ channel: 'zyxf_jg_pyq_5', id: '1273733713' });
 });

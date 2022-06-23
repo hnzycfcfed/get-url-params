@@ -24,8 +24,8 @@ npm i --save get-url-params
 ```javascript
 import getUrlParams from 'get-url-params';
 
-console.log(getUrlParams());          // 获取当前页面 url 参数 location.href = 'https://h.hnzycfc.com/alipay/?id=123'
-console.log(getUrlParams('https://h.hnzycfc.com/promotion/?channel=zyxf_jg_pyq_5&id=1273733713'));      // 获取 url 字符串参数
+console.log(getUrlParams());          // 获取当前页面 url 参数 location.href = 'https://www.buttercatann.com/?id=123'
+console.log(getUrlParams('https://www.buttercatann.com/?channel=podcast&id=1273733713'));      // 获取 url 字符串参数
 
 ```
 
