@@ -1,8 +1,8 @@
 # get-url-params
-[![npm](https://img.shields.io/npm/v/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/get-url-params)
-[![npm](https://img.shields.io/npm/dm/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/get-url-params)
-[![David](https://img.shields.io/david/hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/get-url-params)
-[![David](https://img.shields.io/david/dev/hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/get-url-params)
+[![npm](https://img.shields.io/npm/v/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
+[![npm](https://img.shields.io/npm/dm/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
+[![David](https://img.shields.io/david/hnzycfcfed/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
+[![David](https://img.shields.io/david/dev/hnzycfcfed/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
 [![GitHub stars](https://img.shields.io/github/stars/hnzycfcfed/get-url-params.svg?style=flat-square)](https://github.com/hnzycfcfed/get-url-params/stargazers)
 
 ## 提示
@@ -12,17 +12,17 @@
 ---
 yarn:
 ```
-yarn add get-url-params
+yarn add @hnzycfcfed/get-url-params
 ```
 npm:
 ```
-npm i --save get-url-params
+npm i --save @hnzycfcfed/get-url-params
 ```
 
 ## 演示
 ---
 ```javascript
-import getUrlParams from 'get-url-params';
+import getUrlParams from '@hnzycfcfed/get-url-params';
 
 console.log(getUrlParams());          // 获取当前页面 url 参数 location.href = 'https://www.buttercatann.com/?id=123'
 console.log(getUrlParams('https://www.buttercatann.com/?channel=podcast&id=1273733713'));      // 获取 url 字符串参数
