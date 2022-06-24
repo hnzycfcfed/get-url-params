@@ -10,7 +10,14 @@
         "build": "NODE_ENV=development rollup -c",
         "pub": "NODE_ENV=production rollup -c && npm publish --access public"
     },
-    "author": "Daniel Zhao",
+    "author": "Daniel.Zhao,Thestral.Li",
+    "files": [
+        "dist",
+        "lib",
+        "es",
+        "index.d.ts"
+    ],
+    "typings": "index.d.ts",
     "keywords": [
         "url params",
         "get url params",
@@ -18,11 +25,6 @@
         "get-url-params"
     ],
     "license": "MIT",
-    "files": [
-        "dist",
-        "lib",
-        "es"
-    ],
     "devDependencies": {
         "@babel/core": "^7.0.0",
         "@babel/preset-env": "^7.0.0",
