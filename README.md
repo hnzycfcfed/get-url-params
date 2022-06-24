@@ -1,8 +1,6 @@
 # get-url-params
 [![npm](https://img.shields.io/npm/v/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
 [![npm](https://img.shields.io/npm/dm/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
-[![David](https://img.shields.io/david/hnzycfcfed/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
-[![David](https://img.shields.io/david/dev/hnzycfcfed/@hnzycfcfed/get-url-params.svg?style=flat-square)](https://www.npmjs.com/package/@hnzycfcfed/get-url-params)
 [![GitHub stars](https://img.shields.io/github/stars/hnzycfcfed/get-url-params.svg?style=flat-square)](https://github.com/hnzycfcfed/get-url-params/stargazers)
 
 ## 提示
