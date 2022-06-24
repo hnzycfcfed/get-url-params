@@ -1,6 +1,6 @@
 {
     "name": "@hnzycfcfed/get-url-params",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "获取 url 中的参数",
     "main": "lib/index.js",
     "module": "es/index.js",
